@@ -12,7 +12,7 @@ public class Sat {
     public int DajMinute(){return minute;}
     public int DajSekunde(){return sekunde;}
     public void Ispisi(){
-        System.out.println(sati + " " + minute + " " + sekunde);
+        System.out.println(sati + ":" + minute + ":" + sekunde);
     }
     public void Sljedeci(){
         sekunde++;
